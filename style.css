@@ -1,0 +1,11 @@
+html {
+  font-family: "roboto";
+  background:white;
+}
+
+
+#logo {
+  display: block;
+  margin: 3rem auto;
+  max-width: 60%;
+}
