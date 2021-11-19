@@ -2,10 +2,20 @@ html {
   font-family: "roboto";
   background:white;
 }
-
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 #logo {
   display: block;
   margin: 3rem auto;
   max-width: 60%;
+}
+.container{
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
