@@ -19,3 +19,49 @@ html {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.card{
+  display: flex;
+  height: 10rem;
+  flex-direction: column;
+  border: 1px solid #E5E5E5;
+  background-color:#fcf8f8 ;
+  width: 20rem;
+  margin-top: 2rem;
+  border-radius: 20px;
+}
+.cardHeader{
+  border: 1px solid blue;
+  background-color: blue;
+  border-radius: 7px;
+  padding-top: .3rem;
+  padding-left: 1rem;
+  height: 2.5rem;
+  color: white;
+  text-decoration: underline;
+}
+.cardBody{
+  margin-top:1rem ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right:5rem ;
+}
+.secondColom{
+  display: flex;
+  flex-direction: column;
+}
+span{
+  margin-top: .25rem;
+}
+.total_cases{
+  color: blue;
+}
+.active_cases{
+  color:red;
+}
+.deaths{
+  color: gray;
+}
+.recoverd{
+  color: green;
+}
