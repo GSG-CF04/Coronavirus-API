@@ -19,7 +19,10 @@ html {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.card{
+.summaryDiv{
+  margin: auto;
+}
+.card,.summaryDiv{
   display: flex;
   height: 10rem;
   flex-direction: column;
@@ -29,24 +32,24 @@ html {
   margin-top: 2rem;
   border-radius: 20px;
 }
-.cardHeader{
+.cardHeader,.sumHeader{
   border: 1px solid blue;
   background-color: blue;
   border-radius: 7px;
-  padding-top: .3rem;
+  padding-top: .4rem;
   padding-left: 1rem;
   height: 2.5rem;
   color: white;
   text-decoration: underline;
 }
-.cardBody{
+.cardBody,.sumBody{
   margin-top:1rem ;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding-right:5rem ;
 }
-.secondColom{
+.secondColom,.summaryColom{
   display: flex;
   flex-direction: column;
 }
